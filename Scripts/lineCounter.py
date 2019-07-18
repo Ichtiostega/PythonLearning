@@ -5,6 +5,7 @@ masterCount = 0
 countArray = ["Line count", ""]
 fileArray = ["File name", ""]
 myFiles = pathlib.Path(".").glob("*.py")
+
 for item in list(myFiles):
     myFile = open(item, "r")
     count = 0
