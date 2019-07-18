@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("Formatted Strngs", 5)
+myHeaders.printl("Formatted Strngs", 6)
 
 first = 'John'
 last = 'smith'

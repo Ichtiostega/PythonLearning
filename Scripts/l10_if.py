@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("If Statements", 9)
+myHeaders.printl("If Statements", 10)
 
 is_hot = bool(int(input('Is it warm? ')))
 is_cold = bool(int(input('Is it cold? ')))

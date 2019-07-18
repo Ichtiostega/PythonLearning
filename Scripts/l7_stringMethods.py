@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("String Methods", 6)
+myHeaders.printl("String Methods", 7)
 
 course = 'Python for beginners'
 

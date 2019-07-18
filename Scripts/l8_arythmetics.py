@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("Arythmetic Operations", 7)
+myHeaders.printl("Arythmetic Operations", 8)
 
 print(10 / 3)
 print(10 // 3)

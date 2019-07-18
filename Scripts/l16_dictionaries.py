@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("Dictionaries", 13)
+myHeaders.printl("Dictionaries", 16)
 
 customer = {
     "name":         "John Smith",

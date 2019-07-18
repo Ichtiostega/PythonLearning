@@ -1,5 +1,5 @@
 import myHeaders
-myHeaders.printl("While Loops", 10)
+myHeaders.printl("While Loops", 11)
 
 i = 1
 while i<=5:
