@@ -4,7 +4,7 @@ import columns
 masterCount = 0
 countArray = ["Line count", ""]
 fileArray = ["File name", ""]
-myFiles = pathlib.Path(".").glob("*.py")
+myFiles = pathlib.Path(".").glob("./**/*.py")
 
 for item in list(myFiles):
     myFile = open(item, "r")
