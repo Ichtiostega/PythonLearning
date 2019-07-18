@@ -1,6 +1,9 @@
 import pathlib
+import columns
 
 masterCount = 0
+countArray = ["Line count", ""]
+fileArray = ["File name", ""]
 myFiles = pathlib.Path(".").glob("*.py")
 for item in list(myFiles):
     myFile = open(item, "r")
@@ -10,6 +13,13 @@ for item in list(myFiles):
         if s == '':
             break
         count += 1
-    masterCount += count
-    print(f"{item} has {count} lines of code")
-print(f"All lines of code written: {masterCount}")
+    countArray.append(str(count))
+    masterCount+=count
+    fileArray.append(f"{item}")
+
+fileArray.append("")
+fileArray.append("Total line count:")
+countArray.append("")
+countArray.append(str(masterCount))
+printArray = [fileArray, countArray]
+columns.columnPrint(printArray)
