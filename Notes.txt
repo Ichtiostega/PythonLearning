@@ -1,0 +1,2 @@
+Search "Python3 module index" for a documentation on python's standard modules
+PyPi.org - Comunity Python Packages Index
