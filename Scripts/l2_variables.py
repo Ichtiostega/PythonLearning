@@ -14,3 +14,4 @@ is_published = True
 name = 'John Doe'
 age = 20
 is_new = True
+#kornelka hehe to ja i mój kot
